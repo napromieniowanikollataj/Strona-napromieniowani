@@ -1,0 +1,129 @@
+
+* {
+    font-family: poppins;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color:rgb(42,42,46);
+}
+
+.hide {
+    display: none;
+}
+
+.quiz-title {
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+#question-box {
+    width: 60rem;
+    height: 26rem;
+    background-color:rgb(56,56,61);
+    border-radius: 10px;
+}
+
+#start {
+    width: 60rem;
+    height: 26rem;
+    background-color:rgb(130, 219, 74);
+    font-size: 48px;
+    border-radius: 10px;
+}
+
+#start:hover {
+    width: 60rem;
+    height: 26rem;
+    background-color:rgb(130, 219, 74);
+    font-size: 48px;
+    border-radius: 10px;
+    transform: scale(1.02);
+    transition: ease 0.3s;
+}
+
+.start-txt {
+    display: flex;
+    justify-content: center;
+    margin-top:10rem;
+}
+
+.score-div {
+    width:60rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.question-div {
+    width: 60rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.btn-defult {
+    width: 12rem;
+    height: 8rem;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn-correct {
+    width: 12rem;
+    height: 8rem;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.btn:hover {
+    width: 12rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transform: scale(1.02);
+    transition: ease 0.3s;
+    
+}
+
+.buttons-div {
+    width: 60rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.next-div {
+    width: 56rem;
+    height: 4rem;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    margin-left: 2rem;
+    color: whitesmoke;
+}
+
