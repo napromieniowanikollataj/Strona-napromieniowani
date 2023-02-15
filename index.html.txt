@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Napromieniowani Kołłątaj</title>
+</head>
+<body>
+    <nav class="nav">
+        <a class="title" href="index.html">Napromieniowani Kołłątaj</a>
+         <i class='bx bx-menu' id="nav-icon"></i>
+     
+    </nav>
+    <div class="socials">
+        <p>Odwiedź nas na</p>
+        <a href="https//www.instagram.com/napromieniowani.kollataj/"><i class='bx bxl-instagram icon'></i></a>
+        <a href="https://www.tiktok.com/@napromieniowanikollataj?lang=en"><i class='bx bxl-tiktok icon'></i></a>
+        <a href="https://www.facebook.com/groups/859535292134670/user/100088496084067/"><i class='bx bxl-facebook-square icon' ></i></a>
+    </div>
+
+
+
+<div id="menu-all" class="hide">
+  <div class="menu">
+        <div class="menu-option"><a href="onas.html">O nas</a></div>
+        <div class="menu-option"><a href="quiz.html">Quiz</a></div>
+        <div class="menu-option"><a href="informacje.html">Informacje</a></div>
+        <div class="menu-option"><a href="aktualnosci.html">aktualnosci</a></div>
+        <div class="menu-option"><a href="pytania.html">FAQ</a></div>
+
+    </div>
+</div>
+  
+
+
+    
+    <div class="cele">
+        <img src="logo.png" class="logo">
+        <p class="title-main">Nasz projekt ma na celu: </p>
+
+        <div class="list">
+            <div class="cel"><div class="start"><p>Edukować</p><i class='bx bx-brain icon2'></i></div><p class="normal">Społeczeństwo na temat energetyki jądrowej, zarówno jej wad jak i zalet, wpływu na środowisko oraz porywnywać ją z innymi zrodlami enegii</p></div>
+            <div class="cel"><div class="start"><p>Wpływać</p><i class='bx bx-bulb icon2'></i></div><p class="normal">na opinnię polaków o energetyce jądrowej i innych źródłach energii</p></div>
+            <div class="cel"><div class="start"><p>Walczyć</p><i class='bx bxs-radiation icon2'></i></div><p class="normal">o budowę elektrowni atomowych i jądrowych w polsce i w konsekwencji tanią i ekologiczną energię</p></div>
+            <div class="cel"><div class="start"><p>Troszczyć</p><i class='bx bx-shield-alt-2 icon2'></i></div> <p class="normal">się o środowsko pom przez zachęcanie społeczeństwa do odejścia od mało wydajnych i zanieczyszczających zrodeł energii</p></div>
+            
+        </div>
+       
+    </div>
+
+    <div class="about-us">
+        <div class="text1">
+            <h1>O nas</h1>
+            <p>Projekt napromieniowani ma na celu edukować na temat zalet energii jądrowej. W związku z zaakceptowaniem przez Polski rząd planu budowy danych elektrowni na terenie naszego kraju czujemy się zobowiązani do edukowania każdej grupy wiekowej na ten dość kontrowersyjny temat. Naszym zdaniem energia pozyskiwana z elektrowni jądrowych jest jedną z najtańszych, ale zarazem dobrych dla środowiska. Chcemy zmienić świadomość Polaków związaną z tragedią w Czarnobylu. Co planujemy zrobić? Grupa napromieniowani planuje zrobić kampanię i warsztaty edukacyjne wyjaśniające młodzieży i osobom starszym, dlaczego jest to na ten moment optymalne źródło energii. Uważamy nasz projekt za świetną okazję dla zrobienia czegoś dobrego dla społeczeństwa i mamy nadzieje na dobry odbiór naszych działań. Naszym beneficjentem będzie każda osoba, która chciałaby powiększyć swoją wiedzę na ten temat. Nie mamy jednej grupy docelowej, skupiamy się na dotarciu do każdej możliwej</p>
+        </div>
+
+        <img class="IMG1" src="elektrownia.jpg">
+    </div>
+
+
+    <div class="gablotte">
+        <div class="show gablotteitem" id="gablotte-item1"><img src="1.png"></div>
+        <div class="hide gablotteitem" id="gablotte-item2"><img src="2.png"></div>
+        <div class="hide gablotteitem" id="gablotte-item3"><img src="3.png"></div>
+        <div class="hide gablotteitem" id="gablotte-item4"><img src=""></div>
+
+    </div>
+
+    <div class="controls">
+
+        <i class='bx bx-chevron-left left' id="left" ></i>
+        <div class="dot" id="dot1"></div>
+        <div class="dot" id="dot2"></div>
+        <div class="dot" id="dot3"></div>
+        <i class='bx bx-chevron-right right' id="right"></i>
+        
+    </div>
+
+</body>
+
+</html>
